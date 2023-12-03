@@ -1,5 +1,4 @@
-srk = 'Darr Kiran.mp3';
-bshah = 'shehar ki ladki.mp3';
+
 lx = 0;
 ly = 0;
 rx = 0;
@@ -21,8 +20,8 @@ function setup() {
 }
 
 function preload() {
-    loadSound(srk);
-    loadSound(bshah);
+    srk = loadSound('Darr Kiran.mp3');
+    bshah = loadSound('shehar ki ladki.mp3');
 }
 
 function modelLoaded() {
